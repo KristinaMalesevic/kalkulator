@@ -41,12 +41,11 @@
     </div>
     <span class="divider"></span>
     <div class="afterlogo">
-        <p>Kalkulator Troškova Poslovanja</p>
+        <p>Kalkulator troškova poslovanja</p>
     </div>
     <ul class="menu">
-        <li><a href="#" class="afterlogo"></a></li>
         
-        <li><a href="https://www.smartoffice.ba/" class="navbutton">www.smartoffice.ba </a></li>
+        <li><a href="https://www.smartoffice.ba/" class="navbutton">www.smartoffice.ba</a></li>
     </ul>
     <div class="burger">
         <div class="line1"></div>
