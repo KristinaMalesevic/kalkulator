@@ -15,17 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style-oblik.css" rel="stylesheet">
     <title>Oblik djelatnosti</title>
-    <style>
-        
-        
-.footer {
-    background-color: #222222;
-    margin:0 auto;
-    position:absolute;
-    width:100%;
-    bottom:0px;
-}
-    </style>
+   
 </head>
 <body>
      <!-- Navigation testiranje -->
@@ -68,7 +58,7 @@
         <div id="centar">
         <form class="forma" action ="/kalkulator/djelatnostiDOO.htm" method ="post">
             
-                <label for="doo1" class="labela"><p id="labela1p">Društvo sa ograničenom odgovornošću (D.O.O.)</p>
+                <label for="doo1" class="labela" id="labela1"><p id="labela1p">Društvo sa ograničenom odgovornošću (D.O.O.)</p>
                     <div class="tooltip1"><img src="img/Path 469.svg">
                     <span class="tooltiptext">Društvo sa ograničenom odgovornošću je
                          privredno društvo u kome svaki član društva ima udio u osnvnom
@@ -84,7 +74,7 @@
 
         <form class="forma" action ="/kalkulator/djelatnostiSP.htm" method ="post">
             
-            <label for="doo2" class="labela"><p>Samostalni preduzetnik (S.P.)</p>
+            <label for="doo2" class="labela" id="labela2"><p>Samostalni preduzetnik (S.P.)</p>
                 <div class="tooltip1"><img src="img/Path 469.svg">
                     <span class="tooltiptext">S.P. je fizičko lice koje obavlja jednu od 
                         preduzetničkih djelatnosti i odgovornost za obaveze iz poslovanja
