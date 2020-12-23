@@ -255,8 +255,8 @@ span {
     .menu {
         position: fixed;
         right: 0;
-        height: 80vh;
-        top: 11.9vh;
+        height: 40vh;
+        top: 9.9vh;
         background-color: #FFF200;
         display: flex;
         flex-direction: column;
@@ -265,6 +265,9 @@ span {
         transform: translateX(100%);
         transition: transform .5s slide-in;
         font-size: 14px;
+    }
+    #slink {
+        margin-right: -50px!important;
     }
 
     .menu li {
@@ -299,8 +302,8 @@ span {
     .menu {
         position: fixed;
         right: 0;
-        height: 80vh;
-        top: 11.9vh;
+        height: 40vh;
+        top: 10.9vh;
         background-color: #FFF200;
         display: flex;
         flex-direction: column;
@@ -310,7 +313,9 @@ span {
         transition: transform .5s slide-in;
         font-size: 14px;
     }
-
+     #slink {
+        margin-right: -30px !important;
+    }
     .menu li {
         opacity: 0;
     }
@@ -331,7 +336,7 @@ span {
 }
 
 @media(max-width: 768px) {
-    span {
+    nav span {
         display: none;
     }
 
