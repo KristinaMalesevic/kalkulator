@@ -75,7 +75,10 @@ nav ul li a {
 }
 
 
-
+#slink {
+    width:220px;
+    margin-right: 10px;
+}
 
 @keyframes slideIn {
     from {}
