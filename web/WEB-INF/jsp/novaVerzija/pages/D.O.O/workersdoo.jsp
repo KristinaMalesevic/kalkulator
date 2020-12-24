@@ -58,15 +58,15 @@ function dodaj(){
 function hover(x) {
     var sati = document.getElementById('hours'+x).value;
     if (sati==4) {document.getElementById('tooltip').innerText='Iznos najniže plate u Republici Srpskoj za pola radnog vremena je 260,00 KM.';
-                    document.getElementById("tooltip").style.visibility='visible';
+                    document.getElementById("tooltip").style.display='block';
                   } 
     else
     {document.getElementById('tooltip').innerText='Iznos najniže plate u Republici Srpskoj za puno radno vrijeme  je 520,00 KM.';
-    document.getElementById("tooltip").style.visibility='visible';
+    document.getElementById("tooltip").style.display='block';
                     }
 }
 function ukini() {
-    document.getElementById("tooltip").style.visibility='hidden';
+    document.getElementById("tooltip").style.display='none';
 }
 
 
