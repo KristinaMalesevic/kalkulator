@@ -71,19 +71,6 @@ function handleClick() {
 	   
    }
 }
-
-
-function hover(x) {
-    var sati = document.getElementById('hours'+br).value;
-    if (sati==4) {document.getElementById('tooltip').innerText='Iznos najniže plate u Republici Srpskoj za pola radnog vremena je 260,00 KM.';
-                    document.getElementById("tooltip").style.visibility='visible';
-                  } 
-    else
-    {document.getElementById('tooltip').innerText='Iznos najniže plate u Republici Srpskoj za puno radno vrijeme  je 520,00 KM.';
-    document.getElementById("tooltip").style.visibility='visible';
-                    }
-}
-
 function dodaj(){
     br++;    
     var list =document.getElementById("insert");
@@ -92,8 +79,21 @@ function dodaj(){
     list.appendChild(entry);
 };
 
+
+function hover(x) {
+    var sati = document.getElementById('hours'+br).value;
+    if (sati==4) {document.getElementById('tooltip').innerText='Iznos najniže plate u Republici Srpskoj za pola radnog vremena je 260,00 KM.';
+                    document.getElementById("tooltip").style.display='block';
+                  } 
+    else
+    {document.getElementById('tooltip').innerText='Iznos najniže plate u Republici Srpskoj za puno radno vrijeme  je 520,00 KM.';
+    document.getElementById("tooltip").style.display='block';
+                    }
+}
+
+
 function ukini() {
-    document.getElementById("tooltip").style.visibility='hidden';
+    document.getElementById("tooltip").style.display='none';
 }
 
 
@@ -120,12 +120,10 @@ function ukini() {
     </div>
     <span class="divider"></span>
     <div class="afterlogo">
-        <p>Kalkulator Troškova Poslovanja</p>
+        <p>Kalkulator troškova poslovanja</p>
     </div>
     <ul class="menu">
-        <li><a href="#" class="afterlogo"></a></li>
-    
-        <li><a href="https://www.smartoffice.ba/" class="navbutton">www.smartoffice.ba <img src="img/ic_arrow_forward_24px.svg" alt="arrow24"></a></li>
+        <li><a href="https://www.smartoffice.ba/" class="navbutton">www.smartoffice.ba</a></li>
     </ul>
     <div class="burger">
         <div class="line1"></div>
